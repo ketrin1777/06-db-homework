@@ -8,7 +8,7 @@ SELECT title FROM collections
 WHERE EXTRACT(YEAR FROM DATE(year_of_release)) between '2018' and '2020';
 
 SELECT alias FROM performer
-WHERE alias !~ '[ \t\v\b\r\n\u00a0]';
+WHERE alias != '['% %']';
 
 SELECT title FROM track
 WHERE title LIKE '%мой%' OR  title LIKE '%my%';
