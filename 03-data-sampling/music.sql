@@ -49,7 +49,8 @@ INSERT INTO performer VALUES
 (1, 'Джон Райтл'),
 (2, 'Эмма Полс'),
 (3, 'Джейн Марблс'),
-(4, 'Боб Скот');
+(4, 'Боб Скот'),
+(5, 'Мерри');
 
 INSERT INTO musicalgenre VALUES 
 (1, 'Рок'),
